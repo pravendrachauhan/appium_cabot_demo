@@ -49,7 +49,7 @@ public class HybridAppAppium extends BaseTest{
 
 		driver.findElement(By.id("lst-ib")).sendKeys("cabot");
 
-		
+//trying to create merging situation		
 		
 //		driver.findElement(By.xpath("//android.widget.Spinner")).sendKeys("cabot");
 //		
