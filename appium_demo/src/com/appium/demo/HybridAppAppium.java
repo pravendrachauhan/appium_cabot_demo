@@ -26,7 +26,7 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 
 public class HybridAppAppium extends BaseTest{
 	private static AppiumDriverLocalService service;
-
+//test another git account
 //	public static void main(String[] args) throws MalformedURLException {
 		@Test
 		public void testFunc() throws MalformedURLException, InterruptedException {	
