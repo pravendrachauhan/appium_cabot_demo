@@ -26,7 +26,7 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 
 public class HybridAppAppium extends BaseTest{
 	private static AppiumDriverLocalService service;
-
+//test another git account
 //	public static void main(String[] args) throws MalformedURLException {
 		@Test
 		public void testFunc() throws MalformedURLException, InterruptedException {	
@@ -41,12 +41,26 @@ public class HybridAppAppium extends BaseTest{
 			System.out.println(temp);
 		}
 		
+
 		System.out.println("pravendra1");
 		System.out.println("pravendra2");
 		System.out.println("pravendra3");
 		System.out.println("pravendra1");
 		System.out.println("pravendra2");
 		System.out.println("pravendra3");
+
+		for(String temp: driver.getContextHandles()){
+			System.out.println(temp);
+		}
+		
+		for(String temp: driver.getContextHandles()){
+			System.out.println(temp);
+		}
+		
+		for(String temp: driver.getContextHandles()){
+			System.out.println(temp);
+		}
+
 		System.out.println("current conext: "+driver.getContext());
 		
 		driver.context("WEBVIEW_"+packageName);
