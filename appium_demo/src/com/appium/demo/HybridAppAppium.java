@@ -41,6 +41,18 @@ public class HybridAppAppium extends BaseTest{
 			System.out.println(temp);
 		}
 		
+		for(String temp: driver.getContextHandles()){
+			System.out.println(temp);
+		}
+		
+		for(String temp: driver.getContextHandles()){
+			System.out.println(temp);
+		}
+		
+		for(String temp: driver.getContextHandles()){
+			System.out.println(temp);
+		}
+		
 		System.out.println("current conext: "+driver.getContext());
 		
 		driver.context("WEBVIEW_"+packageName);
